@@ -10,7 +10,7 @@ import plotly.express as px
 # 1. DATASET
 # ----------------------------
 # Load the new dataset
-df = pd.read_csv('/content/tokopedia-product-reviews-2019.csv')
+df = pd.read_csv('tokopedia-product-reviews-2019.csv')
 
 # Drop the 'Unnamed: 0' column if it exists
 if 'Unnamed: 0' in df.columns:
